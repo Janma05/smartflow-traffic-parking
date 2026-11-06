@@ -1,0 +1,72 @@
+[
+  {
+    "name": "Parking Space 1",
+    "x": 40,
+    "y": 30,
+    "width": 130,
+    "height": 170
+  },
+  {
+    "name": "Parking Space 2",
+    "x": 188,
+    "y": 30,
+    "width": 130,
+    "height": 170
+  },
+  {
+    "name": "Parking Space 3",
+    "x": 336,
+    "y": 30,
+    "width": 130,
+    "height": 170
+  },
+  {
+    "name": "Parking Space 4",
+    "x": 484,
+    "y": 30,
+    "width": 130,
+    "height": 170
+  },
+  {
+    "name": "Parking Space 5",
+    "x": 632,
+    "y": 30,
+    "width": 130,
+    "height": 170
+  },
+  {
+    "name": "Parking Space 6",
+    "x": 40,
+    "y": 300,
+    "width": 130,
+    "height": 170
+  },
+  {
+    "name": "Parking Space 7",
+    "x": 188,
+    "y": 300,
+    "width": 130,
+    "height": 170
+  },
+  {
+    "name": "Parking Space 8",
+    "x": 336,
+    "y": 300,
+    "width": 130,
+    "height": 170
+  },
+  {
+    "name": "Parking Space 9",
+    "x": 484,
+    "y": 300,
+    "width": 130,
+    "height": 170
+  },
+  {
+    "name": "Parking Space 10",
+    "x": 632,
+    "y": 300,
+    "width": 130,
+    "height": 170
+  }
+]
