@@ -1,0 +1,142 @@
+{
+  "generated_at": "2026-10-30T09:00:00+05:30",
+  "demo_routes": [
+    {
+      "route_id": "R1",
+      "name": "Route A - Main Road",
+      "description": "Direct route through a busy arterial road",
+      "distance_km": 8.4,
+      "base_duration_min": 20.0,
+      "traffic_factor": 1.65,
+      "congestion_level": "high",
+      "congestion_score": 82,
+      "road_segments": [
+        "Vijayanagar Main Road",
+        "Majestic Connector",
+        "MG Road"
+      ],
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            77.532,
+            12.971
+          ],
+          [
+            77.57,
+            12.976
+          ],
+          [
+            77.594,
+            12.975
+          ],
+          [
+            77.61,
+            12.975
+          ]
+        ]
+      }
+    },
+    {
+      "route_id": "R2",
+      "name": "Route B - Outer Connector",
+      "description": "Slightly longer route with lighter traffic",
+      "distance_km": 10.1,
+      "base_duration_min": 23.0,
+      "traffic_factor": 1.08,
+      "congestion_level": "low",
+      "congestion_score": 24,
+      "road_segments": [
+        "Vijayanagar Link Road",
+        "Outer Connector",
+        "MG Road"
+      ],
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            77.532,
+            12.971
+          ],
+          [
+            77.558,
+            12.953
+          ],
+          [
+            77.585,
+            12.95
+          ],
+          [
+            77.61,
+            12.975
+          ]
+        ]
+      }
+    },
+    {
+      "route_id": "R3",
+      "name": "Route C - Commercial Street Corridor",
+      "description": "Medium-distance route with moderate congestion",
+      "distance_km": 9.2,
+      "base_duration_min": 21.0,
+      "traffic_factor": 1.25,
+      "congestion_level": "medium",
+      "congestion_score": 55,
+      "road_segments": [
+        "West Connector",
+        "Commercial Corridor",
+        "MG Road"
+      ],
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            77.532,
+            12.971
+          ],
+          [
+            77.565,
+            12.99
+          ],
+          [
+            77.591,
+            12.988
+          ],
+          [
+            77.61,
+            12.975
+          ]
+        ]
+      }
+    }
+  ],
+  "traffic_observations": [
+    {
+      "road_id": "RD-101",
+      "road_name": "Vijayanagar Main Road",
+      "congestion_level": "high",
+      "congestion_score": 82,
+      "average_speed_kmph": 14,
+      "vehicle_count_5min": 146,
+      "observed_at": "2026-10-30T08:55:00+05:30"
+    },
+    {
+      "road_id": "RD-102",
+      "road_name": "Outer Connector",
+      "congestion_level": "low",
+      "congestion_score": 24,
+      "average_speed_kmph": 38,
+      "vehicle_count_5min": 61,
+      "observed_at": "2026-10-30T08:55:00+05:30"
+    },
+    {
+      "road_id": "RD-103",
+      "road_name": "Commercial Corridor",
+      "congestion_level": "medium",
+      "congestion_score": 55,
+      "average_speed_kmph": 25,
+      "vehicle_count_5min": 98,
+      "observed_at": "2026-10-30T08:55:00+05:30"
+    }
+  ]
+}
