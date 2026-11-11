@@ -1,0 +1,7 @@
+venv/
+__pycache__/
+*.pyc
+videos/
+*.mp4
+outputs/detected_frames/
+outputs/parking_frames/

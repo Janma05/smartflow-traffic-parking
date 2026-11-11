@@ -1,0 +1,18 @@
+
+SMARTFLOW - PARKING AVAILABILITY PREDICTION REPORT
+=================================================
+
+Total Parking Capacity: 20
+Total Video Observations: 15
+
+Average Detected Vehicles: 8.33
+Average Estimated Occupied Slots: 8.33
+Average Estimated Available Slots: 11.67
+
+Model: Random Forest Regressor
+Input Feature: Elapsed Video Time
+Target: Estimated Occupied Slots
+
+NOTE:
+Occupancy values are estimates based on vehicle detections.
+They are not verified parking-slot occupancy measurements.

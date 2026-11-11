@@ -1,0 +1,13 @@
+location,day,hour,total_slots,occupied_slots,available_slots
+Mall,Monday,9,100,35,65
+Mall,Monday,18,100,90,10
+Mall,Tuesday,9,100,40,60
+Mall,Tuesday,18,100,95,5
+Office,Monday,9,80,70,10
+Office,Monday,18,80,45,35
+Office,Tuesday,9,80,75,5
+Office,Tuesday,18,80,50,30
+Hospital,Monday,9,60,50,10
+Hospital,Monday,18,60,35,25
+Hospital,Tuesday,9,60,55,5
+Hospital,Tuesday,18,60,40,20

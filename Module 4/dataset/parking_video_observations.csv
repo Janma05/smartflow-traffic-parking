@@ -1,0 +1,16 @@
+frame_name,elapsed_seconds,vehicle_count,total_slots,estimated_occupied,estimated_available
+frame_0.jpg,0,8,20,8,12
+frame_1.jpg,2,11,20,11,9
+frame_2.jpg,4,5,20,5,15
+frame_3.jpg,6,9,20,9,11
+frame_4.jpg,8,9,20,9,11
+frame_5.jpg,10,13,20,13,7
+frame_6.jpg,12,10,20,10,10
+frame_7.jpg,14,9,20,9,11
+frame_8.jpg,16,12,20,12,8
+frame_9.jpg,18,11,20,11,9
+frame_10.jpg,20,8,20,8,12
+frame_11.jpg,22,4,20,4,16
+frame_12.jpg,24,5,20,5,15
+frame_13.jpg,26,6,20,6,14
+frame_14.jpg,28,5,20,5,15
