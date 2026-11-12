@@ -1,0 +1,249 @@
+{
+  "parking_facilities": [
+    {
+      "parking_id": "PARK-001",
+      "name": "Central Mall Parking (Demo)",
+      "location": "Bengaluru Central",
+      "total_spaces": 200,
+      "occupied_spaces": 190,
+      "updated_at": "2026-11-03T05:58:10.531171+00:00",
+      "occupancy_percent": 95.0
+    },
+    {
+      "parking_id": "PARK-002",
+      "name": "Tech Park Parking (Demo)",
+      "location": "Electronic City",
+      "total_spaces": 150,
+      "occupied_spaces": 102,
+      "updated_at": "2026-11-03T05:58:10.531171+00:00",
+      "occupancy_percent": 68.0
+    },
+    {
+      "parking_id": "PARK-003",
+      "name": "Metro Station Parking (Demo)",
+      "location": "Banashankari",
+      "total_spaces": 80,
+      "occupied_spaces": 77,
+      "updated_at": "2026-11-03T05:58:10.531171+00:00",
+      "occupancy_percent": 96.2
+    }
+  ],
+  "roads": [
+    {
+      "road_id": "ROAD-101",
+      "road_name": "Outer Ring Road - Demo Segment",
+      "congestion_level": "severe",
+      "congestion_score": 92,
+      "average_speed_kmph": 9,
+      "observed_at": "2026-11-03T05:58:10.531171+00:00"
+    },
+    {
+      "road_id": "ROAD-102",
+      "road_name": "Electronic City Connector (Demo)",
+      "congestion_level": "medium",
+      "congestion_score": 58,
+      "average_speed_kmph": 24,
+      "observed_at": "2026-11-03T05:58:10.531171+00:00"
+    },
+    {
+      "road_id": "ROAD-103",
+      "road_name": "Banashankari Main Road (Demo)",
+      "congestion_level": "high",
+      "congestion_score": 83,
+      "average_speed_kmph": 13,
+      "observed_at": "2026-11-03T05:58:10.531171+00:00"
+    }
+  ],
+  "cameras": [
+    {
+      "device_id": "CAM-001",
+      "name": "Junction Camera 1 (Demo)",
+      "location": "Demo Junction A",
+      "is_online": true,
+      "last_seen_epoch": 1794472349.7873693,
+      "last_seen": "2026-11-12T08:32:29.787377+00:00",
+      "status_message": "Camera is working normally"
+    },
+    {
+      "device_id": "CAM-002",
+      "name": "Junction Camera 2 (Demo)",
+      "location": "Demo Junction B",
+      "is_online": true,
+      "last_seen_epoch": 1794478420.0545623,
+      "last_seen": "2026-11-12T10:13:40.054569+00:00",
+      "status_message": "Camera is working normally"
+    }
+  ],
+  "sensors": [
+    {
+      "device_id": "SEN-001",
+      "name": "Parking Sensor A (Demo)",
+      "location": "Central Mall Parking",
+      "is_online": true,
+      "last_seen_epoch": 1793685490.5311708,
+      "last_seen": "2026-11-03T05:58:10.531171+00:00",
+      "status_message": "OK"
+    },
+    {
+      "device_id": "SEN-002",
+      "name": "Parking Sensor B (Demo)",
+      "location": "Metro Station Parking",
+      "is_online": true,
+      "last_seen_epoch": 1793684590.5311708,
+      "last_seen": "2026-11-03T05:43:10.531171+00:00",
+      "status_message": "Simulated stale sensor"
+    }
+  ],
+  "alerts": [
+    {
+      "alert_id": "a6345af5-63e8-42fa-b1fb-6487445e859e",
+      "alert_type": "sensor_failure",
+      "severity": "warning",
+      "title": "Sensor unavailable: Parking Sensor B (Demo)",
+      "message": "Sensor heartbeat is overdue",
+      "source_id": "SEN-002",
+      "source_name": "Parking Sensor B (Demo)",
+      "status": "resolved",
+      "created_at": "2026-11-03T06:05:37.117957+00:00",
+      "updated_at": "2026-11-12T08:39:37.179410+00:00",
+      "acknowledged_at": "2026-11-12T08:38:11.593580+00:00",
+      "metadata": {
+        "detection_method": "Heartbeat",
+        "sensor_status": "stale"
+      },
+      "acknowledged_by": "string",
+      "resolved_at": "2026-11-12T08:39:37.179382+00:00"
+    },
+    {
+      "alert_id": "6c6b02b3-3e1f-4070-a126-2efbbd5ea6e9",
+      "alert_type": "sensor_failure",
+      "severity": "warning",
+      "title": "Sensor unavailable: Parking Sensor A (Demo)",
+      "message": "Parking Sensor A (Demo) is stale. Last update: 2026-11-03T05:58:10.531171+00:00.",
+      "source_id": "SEN-001",
+      "source_name": "Parking Sensor A (Demo)",
+      "status": "active",
+      "created_at": "2026-11-03T06:05:37.117950+00:00",
+      "updated_at": "2026-11-03T06:05:38.870922+00:00",
+      "acknowledged_at": null,
+      "metadata": {
+        "device_type": "sensor",
+        "device_status": "stale",
+        "last_seen": "2026-11-03T05:58:10.531171+00:00",
+        "stale_after_seconds": 120
+      }
+    },
+    {
+      "alert_id": "8f7293d1-fa4f-4e77-a595-bdb7514d0d65",
+      "alert_type": "camera_unavailable",
+      "severity": "critical",
+      "title": "Camera unavailable: Junction Camera 2 (Demo)",
+      "message": "Camera source missing_camera.mp4 is unavailable",
+      "source_id": "CAM-002",
+      "source_name": "Junction Camera 2 (Demo)",
+      "status": "resolved",
+      "created_at": "2026-11-03T06:05:37.117941+00:00",
+      "updated_at": "2026-11-12T10:17:22.120532+00:00",
+      "acknowledged_at": null,
+      "metadata": {
+        "detection_method": "OpenCV",
+        "camera_status": "offline"
+      },
+      "resolved_at": "2026-11-12T10:17:22.120512+00:00"
+    },
+    {
+      "alert_id": "ad5a26b9-d11d-4052-9ba3-d16d5dd6da4e",
+      "alert_type": "camera_unavailable",
+      "severity": "warning",
+      "title": "Camera unavailable: Junction Camera 1 (Demo)",
+      "message": "Junction Camera 1 (Demo) is stale. Last update: 2026-11-03T05:58:10.531171+00:00.",
+      "source_id": "CAM-001",
+      "source_name": "Junction Camera 1 (Demo)",
+      "status": "active",
+      "created_at": "2026-11-03T06:05:37.117930+00:00",
+      "updated_at": "2026-11-03T06:05:38.870915+00:00",
+      "acknowledged_at": null,
+      "metadata": {
+        "device_type": "camera",
+        "device_status": "stale",
+        "last_seen": "2026-11-03T05:58:10.531171+00:00",
+        "stale_after_seconds": 120
+      }
+    },
+    {
+      "alert_id": "77cf8090-d923-451d-bf00-660a874c0ed7",
+      "alert_type": "severe_congestion",
+      "severity": "warning",
+      "title": "Severe congestion: Banashankari Main Road (Demo)",
+      "message": "Banashankari Main Road (Demo) has high congestion (score 83/100).",
+      "source_id": "ROAD-103",
+      "source_name": "Banashankari Main Road (Demo)",
+      "status": "active",
+      "created_at": "2026-11-03T06:05:37.117915+00:00",
+      "updated_at": "2026-11-03T06:05:38.870895+00:00",
+      "acknowledged_at": null,
+      "metadata": {
+        "congestion_score": 83,
+        "congestion_level": "high",
+        "average_speed_kmph": 13
+      }
+    },
+    {
+      "alert_id": "4888e02a-a178-4412-9192-11c26b6e608c",
+      "alert_type": "severe_congestion",
+      "severity": "critical",
+      "title": "Severe congestion: Outer Ring Road - Demo Segment",
+      "message": "Outer Ring Road - Demo Segment has severe congestion (score 92/100).",
+      "source_id": "ROAD-101",
+      "source_name": "Outer Ring Road - Demo Segment",
+      "status": "active",
+      "created_at": "2026-11-03T06:05:37.117905+00:00",
+      "updated_at": "2026-11-03T06:05:38.870890+00:00",
+      "acknowledged_at": null,
+      "metadata": {
+        "congestion_score": 92,
+        "congestion_level": "severe",
+        "average_speed_kmph": 9
+      }
+    },
+    {
+      "alert_id": "009456d2-f3c7-48fe-ba44-7d42b9c80218",
+      "alert_type": "parking_nearly_full",
+      "severity": "warning",
+      "title": "Parking nearly full: Metro Station Parking (Demo)",
+      "message": "Metro Station Parking (Demo) is 96.2% occupied (77/80).",
+      "source_id": "PARK-003",
+      "source_name": "Metro Station Parking (Demo)",
+      "status": "active",
+      "created_at": "2026-11-03T06:05:37.117892+00:00",
+      "updated_at": "2026-11-03T06:05:38.870883+00:00",
+      "acknowledged_at": null,
+      "metadata": {
+        "occupancy_percent": 96.2,
+        "available_spaces": 3,
+        "threshold_percent": 90,
+        "location": "Banashankari"
+      }
+    },
+    {
+      "alert_id": "5fc2ba6e-b84b-43cc-ae15-5bfb8cdac08f",
+      "alert_type": "parking_nearly_full",
+      "severity": "warning",
+      "title": "Parking nearly full: Central Mall Parking (Demo)",
+      "message": "Central Mall Parking (Demo) is 95.0% occupied (190/200).",
+      "source_id": "PARK-001",
+      "source_name": "Central Mall Parking (Demo)",
+      "status": "active",
+      "created_at": "2026-11-03T06:05:37.117865+00:00",
+      "updated_at": "2026-11-03T06:05:38.870862+00:00",
+      "acknowledged_at": null,
+      "metadata": {
+        "occupancy_percent": 95.0,
+        "available_spaces": 10,
+        "threshold_percent": 90,
+        "location": "Bengaluru Central"
+      }
+    }
+  ],
+  "last_monitoring_run": "2026-11-03T06:05:38.870927+00:00"
+}
